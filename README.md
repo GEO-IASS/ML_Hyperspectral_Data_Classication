@@ -1,6 +1,7 @@
 # ML_Hyperspectral_Data_Classication
 
 Author: Jun Chen, Dan Wang, Zhou Zhang and Penghao Wang
+
 1 Background and Motivation
 
 Recently, hyperspectral remote sensing has gained attention in the remote sensing application
