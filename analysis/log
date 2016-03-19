@@ -1,0 +1,3 @@
+python ../code/datacheck.py ../data/train.csv -h F -v T -c 201 > data_describe.txt
+python ../code/pca.py -i ../data/train.csv -h F -c 201 -p .95
+python ../code/rf.py -i ../data/train.csv -a 1-200 -c 201 -h F

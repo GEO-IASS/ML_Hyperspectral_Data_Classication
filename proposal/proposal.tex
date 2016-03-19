@@ -1,0 +1,125 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article}
+%\input{mydef.tex}
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage[usenames,dvipsnames]{color} % Required for custom colors
+\usepackage{graphicx} % Required to insert images
+\usepackage{listings} % Required for insertion of code
+\usepackage{courier} % Required for the courier font
+\usepackage{amssymb,amsmath}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{subfigure}
+\usepackage{enumitem}
+\usepackage{bm}
+\usepackage{url}
+\usepackage[stable]{footmisc}
+\usepackage{booktabs}
+\usepackage[square]{natbib}
+\usepackage{indentfirst}
+\usepackage[colorlinks, linkcolor=red, anchorcolor=purple, citecolor=blue]{hyperref}
+\usepackage{hyperref}
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+\setlength{\headheight}{13.6pt}
+\linespread{1.1} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+\lhead{CS 57800: Statistical Machine Learning} % Top left header
+\chead{}
+\rhead{Homework 2} % Top right header
+\lfoot{} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+\setlength{\parskip}{.2\baselineskip}
+%\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\title{
+\textbf{Project Proposal} \\ \textsc{\textit{Hyperspectral Data Classification}} \\
+}
+
+\author{
+	\textbf{\textit{Team members names}} \\
+	Purdue University\\
+	\texttt{wang1766@purdue.edu, yyy@purdue.edu, zzz@purdue.edu}
+}
+
+\date{\today}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+
+%\thispagestyle{empty}
+
+\section{Introduction}
+\textit{What is the project}
+
+\textit{Motivation}
+
+\section{Related work}
+\textit{Describe any previous work you found related to your project}
+
+\section{Problem formulation}
+\textit{Describe your project as a machine learning problem, identify inputs objects, labels, possible features}
+
+\section{Data and Evaluation plan}
+
+The data set we plan to use is from a hyperspectral image that was taken by a drone. The whole data set contains all the pixels within the image, which will be further divided into training set and testing set. The whole data set contains 21025 rows, 200 columns of features and 1 column of label. All the feature values were normalized and ranged from 0 to 1000. The label column contains 16 different values. In other words, we have a multi-classification problem.
+
+Below is a pilot evaluation plan:
+\begin{itemize}
+	\item Data Check \\
+	The validity of the whole data set will be checked. Any missing values, non-numeric values and outliers will be identified.
+	\item Data split\\
+	The whole data set will be split into training and testing set. Because the data set is unbalanced (the smallest label group contains 20 examples, while the largest label group contains more than 2000 examples), up-sampling of small label groups or down-sampling of the large label groups will be conducted when the training data is selected. In addition, the training set will be further randomly divided into 5 folds of equal size, in order to facilitate the following cross validation process.
+	\item Feature Selection \\
+	Considering the dimensionality of the data set is relatively high, Principal component analysis (PCA) will be used to conduct dimensionality reduction. We plan to keep at least 90\% of the original variance, and the principal components will be used in the following data analysis.
+	\item Model Selection \\
+	Considering our task is classification based on numeric features, we plan to construct models using the following algorithms:
+		\begin{itemize}
+		\item Random Forest \\
+		Hyper-parameter to be tuned: Randomly selected features, maxiumn number of trees. This model is available in the Sklearn package of Python. 
+		\item Neural Network \\
+		For this model, BackpropTrainer algorithm from Pybrain package of Python will be used. The hyper-parameters include: the hidden layers, learning rate, batch size and so on.
+		\item Linear SVM
+		For this model, the tunable hyper-parameters include cost and maximum iterations. This model is available in the Sklearn package of Python.
+		\item Kernel SVM
+		If necessary, different kernel functions will test. The available kernels in the Sklearn package include: linear, polynominal, rbf, sigmoid and precomputed. 
+		\end{itemize}
+		
+	\item Model evaluation \\
+	After the construction of the above models, the performance of the different models will be evaluated by using 5-fold cross validation. Since the correct label of all data points are known, misclassification rate will be used as the subjective function.
+	\item Model testing \\
+	For the models with satisfied performance, the error rate will be tested against the held out testing data.
+	
+\end{itemize}
+
+
+%\nocite{*}
+%\bibliographystyle{plainnat}
+%\bibliography{all}
+
+\end{document}

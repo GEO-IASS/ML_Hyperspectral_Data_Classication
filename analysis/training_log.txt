@@ -1,0 +1,384 @@
+10/25/15 20:27:30
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 20; max depth: None; max_features: 3
+Model accuracy with cross validation: 0.7396 +/- 0.0042
+Model Selection is DONE.
+
+
+10/25/15 20:27:31
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 20; max depth: None; max_features: 4
+Model accuracy with cross validation: 0.725 +/- 0.0334
+Model Selection is DONE.
+
+
+10/25/15 20:27:32
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 20; max depth: None; max_features: 5
+Model accuracy with cross validation: 0.7583 +/- 0.025
+Model Selection is DONE.
+
+
+10/25/15 20:27:32
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 20; max depth: None; max_features: 6
+Model accuracy with cross validation: 0.7146 +/- 0.0542
+Model Selection is DONE.
+
+
+10/25/15 20:27:33
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 20; max depth: None; max_features: 7
+Model accuracy with cross validation: 0.7375 +/- 0.0084
+Model Selection is DONE.
+
+
+10/25/15 20:27:34
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 20; max depth: None; max_features: 8
+Model accuracy with cross validation: 0.7479 +/- 0.0626
+Model Selection is DONE.
+
+
+10/25/15 20:27:34
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 20; max depth: None; max_features: 9
+Model accuracy with cross validation: 0.7479 +/- 0.0208
+Model Selection is DONE.
+
+
+10/25/15 20:27:35
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 20; max depth: None; max_features: 10
+Model accuracy with cross validation: 0.7646 +/- 0.0374
+Model Selection is DONE.
+
+
+10/25/15 20:27:36
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 50; max depth: None; max_features: 3
+Model accuracy with cross validation: 0.7604 +/- 0.0458
+Model Selection is DONE.
+
+
+10/25/15 20:27:36
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 50; max depth: None; max_features: 4
+Model accuracy with cross validation: 0.7229 +/- 0.0542
+Model Selection is DONE.
+
+
+10/25/15 20:27:37
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 50; max depth: None; max_features: 5
+Model accuracy with cross validation: 0.75 +/- 0.0
+Model Selection is DONE.
+
+
+10/25/15 20:27:38
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 50; max depth: None; max_features: 6
+Model accuracy with cross validation: 0.7688 +/- 0.0126
+Model Selection is DONE.
+
+
+10/25/15 20:27:39
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 50; max depth: None; max_features: 7
+Model accuracy with cross validation: 0.7604 +/- 0.0542
+Model Selection is DONE.
+
+
+10/25/15 20:27:39
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 50; max depth: None; max_features: 8
+Model accuracy with cross validation: 0.7542 +/- 0.0416
+Model Selection is DONE.
+
+
+10/25/15 20:27:41
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 50; max depth: None; max_features: 9
+Model accuracy with cross validation: 0.7937 +/- 0.0292
+Model Selection is DONE.
+
+
+10/25/15 20:27:41
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 50; max depth: None; max_features: 10
+Model accuracy with cross validation: 0.7646 +/- 0.0542
+Model Selection is DONE.
+
+
+10/25/15 20:27:42
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 100; max depth: None; max_features: 3
+Model accuracy with cross validation: 0.7729 +/- 0.0292
+Model Selection is DONE.
+
+
+10/25/15 20:27:43
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 100; max depth: None; max_features: 4
+Model accuracy with cross validation: 0.7979 +/- 0.1042
+Model Selection is DONE.
+
+
+10/25/15 20:27:44
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 100; max depth: None; max_features: 5
+Model accuracy with cross validation: 0.7542 +/- 0.0166
+Model Selection is DONE.
+
+
+10/25/15 20:27:48
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 100; max depth: None; max_features: 6
+Model accuracy with cross validation: 0.7708 +/- 0.025
+Model Selection is DONE.
+
+
+10/25/15 20:27:47
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 100; max depth: None; max_features: 8
+Model accuracy with cross validation: 0.7729 +/- 0.0958
+Model Selection is DONE.
+
+
+10/25/15 20:27:47
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 100; max depth: None; max_features: 10
+Model accuracy with cross validation: 0.7667 +/- 0.025
+Model Selection is DONE.
+
+
+10/25/15 20:27:49
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 100; max depth: None; max_features: 7
+Model accuracy with cross validation: 0.7562 +/- 0.0626
+Model Selection is DONE.
+
+
+10/25/15 20:27:51
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 100; max depth: None; max_features: 9
+Model accuracy with cross validation: 0.7875 +/- 0.025
+Model Selection is DONE.
+
+
+10/25/15 20:27:53
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 150; max depth: None; max_features: 3
+Model accuracy with cross validation: 0.75 +/- 0.0
+Model Selection is DONE.
+
+
+10/25/15 20:27:54
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 150; max depth: None; max_features: 5
+Model accuracy with cross validation: 0.8104 +/- 0.0208
+Model Selection is DONE.
+
+
+10/25/15 20:27:54
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 150; max depth: None; max_features: 6
+Model accuracy with cross validation: 0.8 +/- 0.0084
+Model Selection is DONE.
+
+
+10/25/15 20:27:55
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 150; max depth: None; max_features: 4
+Model accuracy with cross validation: 0.7813 +/- 0.0124
+Model Selection is DONE.
+
+
+10/25/15 20:27:58
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 150; max depth: None; max_features: 8
+Model accuracy with cross validation: 0.7458 +/- 0.0
+Model Selection is DONE.
+
+
+10/25/15 20:27:58
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 150; max depth: None; max_features: 7
+Model accuracy with cross validation: 0.7771 +/- 0.0458
+Model Selection is DONE.
+
+
+10/25/15 20:28:00
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 150; max depth: None; max_features: 9
+Model accuracy with cross validation: 0.7521 +/- 0.0376
+Model Selection is DONE.
+
+
+10/25/15 20:28:00
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 150; max depth: None; max_features: 10
+Model accuracy with cross validation: 0.7854 +/- 0.0042
+Model Selection is DONE.
+
+
+10/25/15 20:28:04
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 200; max depth: None; max_features: 3
+Model accuracy with cross validation: 0.7708 +/- 0.0416
+Model Selection is DONE.
+
+
+10/25/15 20:28:05
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 200; max depth: None; max_features: 4
+Model accuracy with cross validation: 0.7438 +/- 0.0124
+Model Selection is DONE.
+
+
+10/25/15 20:28:06
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 200; max depth: None; max_features: 5
+Model accuracy with cross validation: 0.775 +/- 0.025
+Model Selection is DONE.
+
+
+10/25/15 20:28:07
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 200; max depth: None; max_features: 6
+Model accuracy with cross validation: 0.8062 +/- 0.0374
+Model Selection is DONE.
+
+
+10/25/15 20:28:10
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 200; max depth: None; max_features: 7
+Model accuracy with cross validation: 0.7688 +/- 0.0042
+Model Selection is DONE.
+
+
+10/25/15 20:28:11
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 200; max depth: None; max_features: 8
+Model accuracy with cross validation: 0.7854 +/- 0.0124
+Model Selection is DONE.
+
+
+10/25/15 20:28:11
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 200; max depth: None; max_features: 9
+Model accuracy with cross validation: 0.7813 +/- 0.0208
+Model Selection is DONE.
+
+
+10/25/15 20:28:11
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 200; max depth: None; max_features: 10
+Model accuracy with cross validation: 0.775 +/- 0.0
+Model Selection is DONE.
+
+
+10/25/15 20:28:12
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 500; max depth: None; max_features: 3
+Model accuracy with cross validation: 0.7438 +/- 0.0458
+Model Selection is DONE.
+
+
+10/25/15 20:28:12
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 500; max depth: None; max_features: 4
+Model accuracy with cross validation: 0.7833 +/- 0.0166
+Model Selection is DONE.
+
+
+10/25/15 20:28:14
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 500; max depth: None; max_features: 5
+Model accuracy with cross validation: 0.7854 +/- 0.0542
+Model Selection is DONE.
+
+
+10/25/15 20:28:18
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 500; max depth: None; max_features: 6
+Model accuracy with cross validation: 0.7896 +/- 0.0042
+Model Selection is DONE.
+
+
+10/25/15 20:28:21
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 500; max depth: None; max_features: 7
+Model accuracy with cross validation: 0.7854 +/- 0.0708
+Model Selection is DONE.
+
+
+10/25/15 20:28:24
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 500; max depth: None; max_features: 8
+Model accuracy with cross validation: 0.7542 +/- 0.0084
+Model Selection is DONE.
+
+
+10/25/15 20:28:24
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 500; max depth: None; max_features: 9
+Model accuracy with cross validation: 0.7792 +/- 0.025
+Model Selection is DONE.
+
+
+10/25/15 20:28:24
+Training data: ../data/train.csv
+Predictive Model: Random Forest
+Parameters: Iterations: 500; max depth: None; max_features: 10
+Model accuracy with cross validation: 0.7667 +/- 0.0916
+Model Selection is DONE.
+
+
